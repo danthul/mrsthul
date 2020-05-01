@@ -33,8 +33,11 @@ body {
 }
 
 img {
-  height: 80%;
-  max-width: 40%;
+  display: block;
+  max-width:800px;
+  max-height:800px;
+  width: auto;
+  height: auto;
 }
 
 .hidden {
