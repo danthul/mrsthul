@@ -26,6 +26,11 @@ var start = async () => {
   await showWords(6, wordPause)
   cycle('squat1.png','squat2.png', exerciseSpeed)
   await wait(exerciseLength)
+
+  await showWords(6, wordPause)
+  cycle('crunch1.png','crunch2.png', exerciseSpeed)
+  await wait(exerciseLength)
+
   reset()
   document.getElementById("root").addEventListener("click", pause);
 }
