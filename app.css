@@ -12,6 +12,10 @@ body {
   background-image: url('./images/Frame-yellow-trans.png');
   background-size: 100% 100%;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 80px;
 }
 
 #startButton {
@@ -46,4 +50,8 @@ img {
 
 .sightWord {
   font-size: 250px;
+}
+
+.footer {
+  margin-top: -25%;
 }
