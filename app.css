@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 80px;
+  font-size: calc(2.5rem + 2.5vw);;
 }
 
 #startButton {
@@ -38,10 +38,21 @@ body {
 
 img {
   display: block;
-  max-width:800px;
-  max-height:800px;
+  max-width:350px;
+  max-height:350px;
   width: auto;
-  height: auto;
+  height: 70vh;
+}
+
+@media (min-width: 992px) {
+  img {
+    max-width:600px;
+    max-height:600px;
+  }
+}
+
+#startingImage {
+  position: absolute;
 }
 
 .hidden {
@@ -49,9 +60,26 @@ img {
 }
 
 .sightWord {
-  font-size: 250px;
+  font-size: calc(8rem + 1.5vw);;
 }
 
 .footer {
   margin-top: -25%;
+  text-align: center;
+}
+
+#header {
+  z-index: 2;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+}
+
+#subheader {
+  z-index: 2;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  bottom: 50px;
 }

@@ -6,7 +6,7 @@ var song = new Audio('./sounds/HappyPlace.mp3')
 var volume = 0.5 // 0.5 = 50%
 
 var header = "Mrs. Thul's"
-var subheader = "Read & Exercise!"
+var subheader = "Sight Word Fitness!"
 
 var footer = "Have a good day!"
 
