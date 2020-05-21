@@ -76,8 +76,7 @@ img {
   text-align: center;
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
     /* add your IE10-IE11 css here */  
-    position: relative; 
-    margin-bottom: -60px;
+
   }
 }
 
@@ -87,9 +86,18 @@ img {
   position: absolute;
   bottom: 65px;
   text-align: center;
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  #subheader {
     /* add your IE10-IE11 css here */  
     position: relative; 
     margin-top: -60px;
   }
+  #header {
+    position: relative; 
+    margin-bottom: -60px;
+  }
 }
+
+
