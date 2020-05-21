@@ -8,7 +8,7 @@ var volume = 0.5 // 0.5 = 50%
 var header = "Mrs. Thul's"
 var subheader = "Sight Word Fitness!"
 
-var footer = "Have a good day!"
+var footer = "Way to go!"
 
 var start = async () => {
   shuffle(wordList)
